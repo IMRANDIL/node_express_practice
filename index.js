@@ -12,6 +12,10 @@ const app = express();
 
 app.get('/', (req, res)=>{
     res.send(`<h1>My frist express js application</h1>`)
+});
+
+app.get('/about', (req, res)=>{
+    res.send(`<h1>Hi, I'am a Full Stack Developer :)</h1>`)
 })
 
 
